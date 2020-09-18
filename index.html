@@ -23,9 +23,45 @@
     <header>
 
         <!-- NAV -->
-        <nav></nav>
+        <nav id="mainNavbar" class="navbar navbar-expand-md navbar-light fixed-top bg-color-white">
+            <a class="navbar-brand" href="/">
+                <img src="assets/images/logo.jpg" width="60" height="60" alt="Lethal Apps Logo" loading="lazy">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="work.html">Work <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="company.html">Company <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="contact.html">Contact <span class="sr-only">(current)</span></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
 
         <!-- HEADER-VIDEO -->
+        <div class="header-video-overlay bg-color-black"></div>
+        <video class="header-video" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+            <source src="assets/videos/index-header-video.mp4" type="video/mp4">
+        </video>
+        <div class="video-container h-100">
+            <div class="d-flex h-100 text-center align-items-center">
+                <div class="col-10 offset-1 offset-sm-0 col-sm-12 text-white">
+                    <h1 class="display-1">Lethal Apps</h1>
+                    <h3 class="mb-0">Lorem ipsum dolor sit amet.</h3>
+                </div>
+            </div>
+        </div>
     </header>
 
     <!-- MAIN SECTION -->

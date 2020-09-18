@@ -1,14 +1,28 @@
+@import url(https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap);
+
 /*------------------------------------*\
   #COLORS
 \*------------------------------------*/
 
+.bg-color-white {
+    background-color: #fff;
+  }
+  
+  .bg-color-black {
+    background-color: #000;
+  }
 
 
 
 
+  
 /*------------------------------------*\
   #GLOBAL SETTINGS
 \*------------------------------------*/
+
+* {
+  font-family: 'Source Sans Pro', sans-serif, arial; 
+}
 
 
 
@@ -17,6 +31,44 @@
 /*------------------------------------*\
   #INDEX.HTML
 \*------------------------------------*/
+
+header {
+  position: relative;
+  height: 75vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+.header-video-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+.header-video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.video-container {
+  position: relative;
+  z-index: 2;
+}
 
 
 

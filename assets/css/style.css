@@ -59,8 +59,8 @@ header {
   width: auto;
   height: auto;
   z-index: 0;
-  -ms-transform: translateX(-50%) translateY(-50%);
-  -moz-transform: translateX(-50%) translateY(-50%);
+      -ms-transform: translateX(-50%) translateY(-50%);
+     -moz-transform: translateX(-50%) translateY(-50%);
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
 }
@@ -68,6 +68,16 @@ header {
 .video-container {
   position: relative;
   z-index: 2;
+}
+
+
+
+
+
+/*INDEX.HTML SERVICES-----------------*/
+
+.service {
+  text-align: center;
 }
 
 
@@ -102,6 +112,13 @@ header {
   #MEDIA QUERIES
 \*------------------------------------*/
 
-
-
+@media (pointer: coarse) and (hover: none) {
+  header {
+    background: url("../images/index-header-video-mobile.png") #000 no-repeat center center
+      scroll;
+  }
+  header video {
+    display: none;
+  }
+}
 

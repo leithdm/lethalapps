@@ -15,6 +15,8 @@
     <!-- CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+        integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 
@@ -25,7 +27,7 @@
         <!-- NAV -->
         <nav id="mainNavbar" class="navbar navbar-expand-md navbar-light fixed-top bg-color-white">
             <a class="navbar-brand" href="/">
-                <img src="assets/images/logo.jpg" width="60" height="60" alt="Lethal Apps Logo" loading="lazy">
+                <img src="assets/images/logo.jpg" width="40" height="40" alt="Lethal Apps Logo" loading="lazy">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
                 aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,13 +39,13 @@
                         <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="work.html">Work <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="work.html" target="_blank">Work <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="company.html">Company <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="company.html" target="_blank">Company <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="contact.html">Contact <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="contact.html" target="_blank">Contact <span class="sr-only">(current)</span></a>
                     </li>
                 </ul>
             </div>
@@ -56,9 +58,15 @@
         </video>
         <div class="video-container h-100">
             <div class="d-flex h-100 text-center align-items-center">
-                <div class="col-10 offset-1 offset-sm-0 col-sm-12 text-white">
+                <div class="col-sm-12 text-white">
                     <h1 class="display-1">Lethal Apps</h1>
-                    <h3 class="mb-0">Lorem ipsum dolor sit amet.</h3>
+                    <h3 class="mb-5">Lorem ipsum dolor sit amet.</h3>
+                    <a class="btn btn-outline-light mx-3"
+                    href="work.html" role="button"
+                    target="_blank">VIEW WORK</a>
+                    <a class="btn btn-primary"
+                    href="contact.html" role="button"
+                    target="_blank">CONTACT</a>
                 </div>
             </div>
         </div>
@@ -66,9 +74,52 @@
 
     <!-- MAIN SECTION -->
     <main>
-
         <!-- SERVICES -->
-        <section></section>
+        <section>
+            <div class="container-fluid">
+                <div class="col my-4 text-center">
+                    <h6 class="text-uppercase my-4">Services</h6>
+                    <div class="row mb-5">
+                        <div class="col-12 col-md-4">
+                            <h3>Service 1</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut
+                                labore
+                                et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                laboris
+                                nisi ut
+                                aliquip ex ea commodo consequat.</p>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <h3>Service 2</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut
+                                labore
+                                et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                laboris
+                                nisi ut
+                                aliquip ex ea commodo consequat.</p>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <h3>Service 3</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut
+                                labore
+                                et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                laboris
+                                nisi ut
+                                aliquip ex ea commodo consequat.</p>
+                        </div>
+                    </div>
+                    <a class="btn btn-sm btn-outline-dark"
+                    href="contact.html" role="button"
+                    target="_blank">REQUEST A QUOTE</a>
+                </div>
+            </div>
+            <hr>
+        </section>
+
+
 
         <!-- CUSTOMER-QUOTATION -->
         <section></section>
@@ -77,6 +128,17 @@
     <!-- FOOTER -->
     <footer></footer>
 
+
+    <!-- JQUERY, POPPER.JS, BOOTSTRAP.JS-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

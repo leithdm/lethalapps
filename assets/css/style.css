@@ -80,6 +80,59 @@ header {
   text-align: center;
 }
 
+/*INDEX.HTML PROCESS-----------------*/
+
+.timeline {
+  position: relative; 
+  margin-top: 20px; 
+  margin-left: 20px; 
+  list-style: none; 
+}
+
+.timeline::before {
+  position: absolute; 
+  content: "";
+  width: 2px; 
+  background-color: lightgray; 
+  top: 0; 
+  bottom: 0; 
+  left: 0; 
+}
+
+.timeline-circle {
+  position: absolute;
+  left: 0;
+  top: 7px;
+  width: 20px;
+  height: 20px;
+  margin-left: -50px; 
+  background-color: orangered;
+  border: 3px solid orange; 
+  border-radius: 50%; 
+}
+
+.timeline-badge {
+  position: absolute;
+  left: 0;
+  width: 150px;
+  height: 150px;
+  margin-left: -250px; 
+}
+
+.timeline-item {
+  position: relative;
+  height: 300px; 
+}
+
+.process-item {
+  padding-left: 20px; 
+  padding-right: 20px; 
+}
+
+.process-text {
+  font-size: 1.3rem; 
+}
+
 
 
 
@@ -122,3 +175,30 @@ header {
   }
 }
 
+@media screen and (max-width: 768px) {
+  .process-text {
+      font-size: 0.9rem; 
+  }
+
+  .timeline-badge {
+      position: absolute;
+      left: 0;
+      width: 100px;
+      height: 100px;
+      margin-left: -200px; 
+  }
+} 
+
+@media screen and (max-width: 576px) {
+  .process-text {
+      font-size: 0.8rem; 
+  }
+
+  .timeline-badge {
+      position: absolute;
+      left: 0;
+      width: 80px;
+      height: 80px;
+      margin-left: -150px; 
+  }
+} 

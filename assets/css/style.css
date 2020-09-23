@@ -5,30 +5,24 @@
 \*------------------------------------*/
 
 .bg-color-white {
-    background-color: #fff;
-  }
-  
-  .bg-color-black {
-    background-color: #000;
-  }
+  background-color: #fff;
+}
+
+.bg-color-black {
+  background-color: #000;
+}
 
 .section-background-color {
   background-color: #fbfbfd;
 }
 
-
-  
 /*------------------------------------*\
   #GLOBAL SETTINGS
 \*------------------------------------*/
 
 * {
-  font-family: 'Source Sans Pro', sans-serif, arial; 
+  font-family: "Source Sans Pro", sans-serif, arial;
 }
-
-
-
-
 
 /*------------------------------------*\
   #INDEX.HTML
@@ -61,9 +55,9 @@ header {
   width: auto;
   height: auto;
   z-index: 0;
-          transform: translateX(-50%) translateY(-50%);
-      -ms-transform: translateX(-50%) translateY(-50%);
-     -moz-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
   -webkit-transform: translateX(-50%) translateY(-50%);
 }
 
@@ -72,24 +66,20 @@ header {
   z-index: 2;
 }
 
-.btn-header { 
-  color: #1A1919; 
-  background-color: #EBF65C; 
-  border-color: #AAB510; 
-} 
- 
-.btn-header:hover, 
-.btn-header:focus, 
-.btn-header:active, 
-.btn-header.active { 
-  color: #1A1919; 
-  background-color: #a0aa1d; 
-  border-color: #AAB510; 
-} 
+.btn-header {
+  color: #1a1919;
+  background-color: #ebf65c;
+  border-color: #aab510;
+}
 
-
-
-
+.btn-header:hover,
+.btn-header:focus,
+.btn-header:active,
+.btn-header.active {
+  color: #1a1919;
+  background-color: #a0aa1d;
+  border-color: #aab510;
+}
 
 /*INDEX.HTML - SERVICES-----------------*/
 
@@ -97,39 +87,42 @@ header {
   text-align: center;
 }
 
-
-
-
+.services-section-text {
+  color: gray;
+}
+.services-heading-text {
+  color: #372a36;
+}
 
 /*INDEX.HTML - PROCESS-----------------*/
 
 .timeline {
-  position: relative; 
-  margin-top: 20px; 
-  margin-left: 20px; 
-  list-style: none; 
+  position: relative;
+  margin-top: 20px;
+  margin-left: 20px;
+  list-style: none;
 }
 
 .timeline::before {
-  position: absolute; 
+  position: absolute;
   content: "";
-  width: 2px; 
-  background-color: lightgray; 
-  top: 0; 
-  bottom: 0; 
-  left: 0; 
+  width: 2px;
+  background-color: lightgray;
+  top: 0;
+  bottom: 0;
+  left: 0;
 }
 
 .timeline-circle {
   position: absolute;
   left: 0;
-  top: 7px;
+  top: 4px;
   width: 20px;
   height: 20px;
-  margin-left: -50px; 
-  background-color: #DF3939;
-  border: 3px solid #A3CA87; 
-  border-radius: 50%; 
+  margin-left: -50px;
+  background-color: #df3939;
+  border: 3px solid #a3ca87;
+  border-radius: 50%;
 }
 
 .timeline-badge {
@@ -137,7 +130,7 @@ header {
   left: 0;
   width: 150px;
   height: 150px;
-  margin-left: -250px; 
+  margin-left: -250px;
 }
 
 .timeline-badge-final {
@@ -149,90 +142,102 @@ header {
 
 .timeline-item {
   position: relative;
-  height: 260px; 
+  height: 260px;
 }
 
 .process-item {
-  padding-left: 20px; 
-  padding-right: 20px; 
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.process-section-text {
+  color: #372a36;
 }
 
 .process-header {
-  color: #DF3939;
+  color: #df3939;
 }
 
 .process-text {
-  font-size: 1.3rem; 
+  font-size: 1.3rem;
 }
-
-
-
-
 
 /*INDEX.HTML - TESTIMONIAL-----------------*/
 
 .section-break {
-  height: 150px; 
+  height: 150px;
 }
 
-  .carousel {
-    margin-bottom: 4rem;
-  }
- 
-  .carousel-caption {
-    bottom: 3rem;
-    z-index: 10;
-    color: black; 
-  }
-  
-  .carousel-item {
-    height: 28rem;
-  }
+.carousel {
+  margin-bottom: 4rem;
+}
 
-  .carousel-item > img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    min-width: 100%;
-    height: 32rem;
-  }
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+  color: black;
+}
 
-  .carousel-image {
-      width: 100px; 
-      height: 100px; 
-      margin-bottom: 20px; 
-  }
+.carousel-item {
+  height: 28rem;
+}
 
-  .carousel-control-next,
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
+}
+
+.carousel-image {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+.carousel-control-next,
 .carousel-control-prev {
-    filter: invert(100%);
+  filter: invert(100%);
 }
-  
 
+/*INDEX.HTML - FOOTER-BREAK-----------------*/
 
+.footer-break-bg-image {
+  background: url("../images/index-header-video-mobile.png") no-repeat center
+    center;
+  background-size: cover;
+  height: 250px;
+  width: 100%;
+  margin-bottom: 50px;
+}
 
+.footer-break-overlay {
+  color: #fafafa;
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  height: 250px;
+  float: left;
+}
 
 /*INDEX.HTML - FOOTER-----------------*/
 
 footer {
-  color: white; 
+  color: #fafafa;
 }
 
 .footer {
   padding: 20px 0;
-  background:#252525;
+  background: #252525;
 }
 
-footer ul{	
-padding-left: 0;	list-style: none;
+footer ul {
+  padding-left: 0;
+  list-style: none;
 }
-
-/* body {
-  color: white; 
-} */
 
 .footer-text {
-  color: black; 
+  color: black;
 }
 
 .footer-section {
@@ -243,6 +248,7 @@ padding-left: 0;	list-style: none;
 .footer-section li a {
   color: #fbff1e;
 }
+
 .footer-section li a:hover {
   color: #ff4800;
 }
@@ -261,7 +267,6 @@ padding-left: 0;	list-style: none;
   margin: 2px 0 0;
 }
 
-
 ul.social-footer {
   margin: 0;
   padding: 0;
@@ -273,58 +278,43 @@ ul.social-footer li {
   padding: 0;
 }
 
-
 ul.social-footer li a {
   display: block;
   text-align: center;
-  margin-right: 5px; 
+  margin-right: 5px;
 }
 
 .social-image {
-  height: 30px; 
-  width: 30px; 
+  height: 30px;
+  width: 30px;
 }
 
 .social-image:hover {
-  border: 1px solid white; 
+  border: 1px solid white;
 }
 
 .footer-hr {
-  background-color: white; 
+  background-color: white;
 }
 
 .footer-contact-text {
-  color: white; 
+  color: white;
 }
 .footer-contact-text:hover {
-  color: #fbff1e; 
+  color: #fbff1e;
 }
-
-
 
 /*------------------------------------*\
   #WORK.HTML
 \*------------------------------------*/
 
-
-
-
-
 /*------------------------------------*\
   #COMPANY.HTML
 \*------------------------------------*/
 
-
-
-
-
 /*------------------------------------*\
   #CONTACT.HTML
 \*------------------------------------*/
-
-
-
-
 
 /*------------------------------------*\
   #MEDIA QUERIES
@@ -332,8 +322,8 @@ ul.social-footer li a {
 
 @media (pointer: coarse) and (hover: none) {
   header {
-    background: url("../images/index-header-video-mobile.png") #000 no-repeat center center
-      scroll;
+    background: url("../images/index-header-video-mobile.png") #000 no-repeat
+      center center scroll;
   }
   header video {
     display: none;
@@ -342,15 +332,15 @@ ul.social-footer li a {
 
 @media screen and (max-width: 768px) {
   .process-text {
-      font-size: 0.9rem; 
+    font-size: 0.9rem;
   }
 
   .timeline-badge {
-      position: absolute;
-      left: 0;
-      width: 100px;
-      height: 100px;
-      margin-left: -200px; 
+    position: absolute;
+    left: 0;
+    width: 100px;
+    height: 100px;
+    margin-left: -200px;
   }
 
   .timeline-badge-final {
@@ -359,20 +349,23 @@ ul.social-footer li a {
     width: 100px;
     height: 100px;
   }
-
-} 
+}
 
 @media screen and (max-width: 576px) {
   .process-text {
-      font-size: 0.8rem; 
+    font-size: 0.8rem;
+  }
+
+  .display-1 {
+    font-size: 4rem;
   }
 
   .timeline-badge {
-      position: absolute;
-      left: 0;
-      width: 80px;
-      height: 80px;
-      margin-left: -150px; 
+    position: absolute;
+    left: 0;
+    width: 80px;
+    height: 80px;
+    margin-left: -150px;
   }
 
   .timeline-badge-final {
@@ -381,5 +374,4 @@ ul.social-footer li a {
     width: 80px;
     height: 80px;
   }
-
-} 
+}

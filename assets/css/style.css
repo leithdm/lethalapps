@@ -59,10 +59,10 @@ header {
   width: auto;
   height: auto;
   z-index: 0;
+          transform: translateX(-50%) translateY(-50%);
       -ms-transform: translateX(-50%) translateY(-50%);
      -moz-transform: translateX(-50%) translateY(-50%);
   -webkit-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
 }
 
 .video-container {
@@ -70,17 +70,36 @@ header {
   z-index: 2;
 }
 
+.btn-header { 
+  color: #1A1919; 
+  background-color: #EBF65C; 
+  border-color: #AAB510; 
+} 
+ 
+.btn-header:hover, 
+.btn-header:focus, 
+.btn-header:active, 
+.btn-header.active { 
+  color: #1A1919; 
+  background-color: #a0aa1d; 
+  border-color: #AAB510; 
+} 
 
 
 
 
-/*INDEX.HTML SERVICES-----------------*/
+
+/*INDEX.HTML - SERVICES-----------------*/
 
 .service {
   text-align: center;
 }
 
-/*INDEX.HTML PROCESS-----------------*/
+
+
+
+
+/*INDEX.HTML - PROCESS-----------------*/
 
 .timeline {
   position: relative; 
@@ -106,8 +125,8 @@ header {
   width: 20px;
   height: 20px;
   margin-left: -50px; 
-  background-color: orangered;
-  border: 3px solid orange; 
+  background-color: #DF3939;
+  border: 3px solid #A3CA87; 
   border-radius: 50%; 
 }
 
@@ -117,6 +136,13 @@ header {
   width: 150px;
   height: 150px;
   margin-left: -250px; 
+}
+
+.timeline-badge-final {
+  position: absolute;
+  left: -90px;
+  width: 150px;
+  height: 150px;
 }
 
 .timeline-item {
@@ -129,11 +155,57 @@ header {
   padding-right: 20px; 
 }
 
+.process-header {
+  color: #DF3939;
+}
+
 .process-text {
   font-size: 1.3rem; 
 }
 
 
+
+
+
+/*INDEX.HTML - TESTIMONIAL-----------------*/
+
+.section-break {
+  height: 150px; 
+}
+
+  .carousel {
+    margin-bottom: 4rem;
+  }
+ 
+  .carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+    color: black; 
+  }
+  
+  .carousel-item {
+    height: 28rem;
+  }
+
+  .carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 32rem;
+  }
+
+  .carousel-image {
+      width: 100px; 
+      height: 100px; 
+      margin-bottom: 20px; 
+  }
+
+  .carousel-control-next,
+.carousel-control-prev {
+    filter: invert(100%);
+}
+  
 
 
 
@@ -187,6 +259,14 @@ header {
       height: 100px;
       margin-left: -200px; 
   }
+
+  .timeline-badge-final {
+    position: absolute;
+    left: -65px;
+    width: 100px;
+    height: 100px;
+  }
+
 } 
 
 @media screen and (max-width: 576px) {
@@ -201,4 +281,12 @@ header {
       height: 80px;
       margin-left: -150px; 
   }
+
+  .timeline-badge-final {
+    position: absolute;
+    left: -50px;
+    width: 80px;
+    height: 80px;
+  }
+
 } 

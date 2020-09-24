@@ -28,7 +28,10 @@
   #INDEX.HTML
 \*------------------------------------*/
 
-header {
+.header-index,
+.header-work,
+.header-company,
+.header-contact {
   position: relative;
   height: 75vh;
   min-height: 25rem;
@@ -55,10 +58,10 @@ header {
   width: auto;
   height: auto;
   z-index: 0;
-  transform: translateX(-50%) translateY(-50%);
-  -ms-transform: translateX(-50%) translateY(-50%);
-  -moz-transform: translateX(-50%) translateY(-50%);
-  -webkit-transform: translateX(-50%) translateY(-50%);
+           transform: translateX(-50%) translateY(-50%);
+       -ms-transform: translateX(-50%) translateY(-50%);
+      -moz-transform: translateX(-50%) translateY(-50%);
+   -webkit-transform: translateX(-50%) translateY(-50%);
 }
 
 .video-container {
@@ -321,11 +324,27 @@ ul.social-footer li a {
 \*------------------------------------*/
 
 @media (pointer: coarse) and (hover: none) {
-  header {
+  .header-index {
     background: url("../images/index-header-video-mobile.png") #000 no-repeat
-      center center scroll;
+      center center; 
   }
-  header video {
+
+  .header-work {
+    background: url("../images/work-header-video-mobile.jpg") #000 no-repeat;
+      background-size: cover; 
+  }
+
+  .header-company {
+    background: url("../images/company-header-video.jpg") #000 no-repeat;
+    background-size: cover; 
+  }
+
+  .header-contact {
+    background: url("../images/contact-header-video-mobile.png") #000 no-repeat;
+    background-size: cover; 
+  }
+
+ header video {
     display: none;
   }
 }

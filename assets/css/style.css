@@ -307,9 +307,28 @@ ul.social-footer li a {
   color: #fbff1e;
 }
 
+
+
+
+
 /*------------------------------------*\
   #WORK.HTML
 \*------------------------------------*/
+
+.portfolio-item-1 {
+	width: 100%;
+	height: 600px; 
+  background: url("../images/apod-detailed.png") no-repeat center center; 
+	background-size: contain; 
+}
+
+
+
+
+
+
+
+
 
 /*------------------------------------*\
   #COMPANY.HTML

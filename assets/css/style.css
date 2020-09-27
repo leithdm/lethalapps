@@ -330,6 +330,7 @@ ul.social-footer li a {
   #COMPANY.HTML
 \*------------------------------------*/
 
+
 /*------------------------------------*\
   #CONTACT.HTML
 \*------------------------------------*/
@@ -364,6 +365,12 @@ ul.social-footer li a {
   }
 }
 
+@media screen and (max-width: 992px) {
+  .card-columns {
+    column-count: 2;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .process-text {
     font-size: 0.9rem;
@@ -382,6 +389,10 @@ ul.social-footer li a {
     left: -65px;
     width: 100px;
     height: 100px;
+  }
+
+  .card-columns {
+    column-count: 1;
   }
 }
 
@@ -407,5 +418,9 @@ ul.social-footer li a {
     left: -50px;
     width: 80px;
     height: 80px;
+  }
+
+  .card-columns {
+    column-count: 1;
   }
 }

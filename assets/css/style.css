@@ -16,12 +16,22 @@
   background-color: #fbfbfd;
 }
 
+
 /*------------------------------------*\
   #GLOBAL SETTINGS
 \*------------------------------------*/
 
 * {
   font-family: "Source Sans Pro", sans-serif, arial;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  color: #df3939;
+}
+
+.navbar-nav .nav-item.active .nav-link,
+.navbar-nav .nav-item:hover .nav-link {
+  font-size: 1.2rem; 
 }
 
 /*------------------------------------*\
@@ -80,9 +90,20 @@
 .btn-header:active,
 .btn-header.active {
   color: #1a1919;
-  background-color: #a0aa1d;
-  border-color: #aab510;
+  background-color: #cdda1f;
+  border-color: #1a1919;
 }
+
+.btn-outline-dark:hover,
+.btn-outline-dark:focus,
+.btn-outline-dark:active,
+.btn-outline-dark.active {
+  color: #1a1919;
+  background-color: #cdda1f;
+  border-color: #1a1919;
+}
+
+
 
 /*INDEX.HTML - SERVICES-----------------*/
 
@@ -163,6 +184,10 @@
 
 .process-text {
   font-size: 1.3rem;
+}
+
+.test {
+  background: url()
 }
 
 /*INDEX.HTML - TESTIMONIAL-----------------*/
@@ -253,7 +278,7 @@ footer ul {
 }
 
 .footer-section li a:hover {
-  color: #ff4800;
+  color: #df3939;
 }
 
 .footer-section-title {

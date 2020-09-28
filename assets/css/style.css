@@ -34,6 +34,10 @@
   font-size: 1.2rem; 
 }
 
+.nav-link-current {
+  color: #df3939;
+}
+
 /*------------------------------------*\
   #INDEX.HTML
 \*------------------------------------*/
@@ -159,7 +163,7 @@
 
 .timeline-badge-final {
   position: absolute;
-  left: -90px;
+  left: -60px;
   width: 150px;
   height: 150px;
 }
@@ -411,7 +415,7 @@ ul.social-footer li a {
 
   .timeline-badge-final {
     position: absolute;
-    left: -65px;
+    left: -25px;
     width: 100px;
     height: 100px;
   }
@@ -440,7 +444,7 @@ ul.social-footer li a {
 
   .timeline-badge-final {
     position: absolute;
-    left: -50px;
+    left: -10px;
     width: 80px;
     height: 80px;
   }

@@ -426,12 +426,21 @@ ul.social-footer li a {
 }
 
 @media screen and (max-width: 576px) {
-  .process-text {
-    font-size: 0.8rem;
+  
+  .display-1 {
+    font-size: 3rem;
+  }
+  
+  .display-sub-header {
+    font-size: 1.4rem; 
   }
 
-  .display-1 {
-    font-size: 4rem;
+  .btn-header {
+    font-size: 1rem; 
+  }
+  
+  .process-text {
+    font-size: 0.8rem;
   }
 
   .timeline-badge {
@@ -439,7 +448,7 @@ ul.social-footer li a {
     left: 0;
     width: 80px;
     height: 80px;
-    margin-left: -150px;
+    margin-left: -140px;
   }
 
   .timeline-badge-final {

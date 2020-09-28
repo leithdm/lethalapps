@@ -9,7 +9,7 @@
 }
 
 .bg-color-black {
-  background-color: #000;
+  background-color: #111;
 }
 
 .section-background-color {
@@ -36,6 +36,11 @@
 
 .nav-link-current {
   color: #df3939;
+}
+
+iframe {
+  display:block;
+  width:100%;
 }
 
 /*------------------------------------*\
@@ -118,6 +123,7 @@
 .services-section-text {
   color: gray;
 }
+
 .services-heading-text {
   color: #372a36;
 }
@@ -134,7 +140,7 @@
 .timeline::before {
   position: absolute;
   content: "";
-  width: 2px;
+  width: 1px;
   background-color: lightgray;
   top: 0;
   bottom: 0;
@@ -370,8 +376,8 @@ ul.social-footer li a {
 
 @media (pointer: coarse) and (hover: none) {
   .header-index {
-    background: url("../images/index-header-video-mobile.png") #000 no-repeat
-      center center; 
+    background: url("../images/index-header-video-mobile.png") #000 no-repeat;
+    background-size: cover; 
   }
 
   .header-work {

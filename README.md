@@ -2,7 +2,7 @@
 
 ![Lethal Apps](readme-files/responsive.png)
 
-#### Overview:
+## Overview:
 
 Lethal Apps is a software development services company with a focus on web and mobile development.
 
@@ -10,17 +10,17 @@ You can visit the deployed website [here](https://leithdm.github.io/milestone-pr
 
 ## Table of Contents
 1. [**UX**](#ux)
-    - 1.1[**User Stories**](#user-stories)
-    - 1.2[**Design**](#design)
-        - 1.2.1[**Framework**](#framework)
-        - 1.2.2[**Color Scheme**](#color-scheme)
-        - 1.2.3[**Icons**](#icons)
-        - 1.2.4[**Typography**](#typography)
-    - 1.3[**Wireframes**](#wireframes)
+    - 1.1 [**User Stories**](#user-stories)
+    - 1.2 [**Design**](#design)
+        - 1.2.1 [**Framework**](#framework)
+        - 1.2.2 [**Color Scheme**](#color-scheme)
+        - 1.2.3 [**Icons**](#icons)
+        - 1.2.4 [**Typography**](#typography)
+    - 1.3 [**Wireframes**](#wireframes)
 
 2. [**Features**](#features)
-    - 2.1[**Existing Features**](#existing-features)
-    - 2.2[**Features Left to Implement**](#features-left-to-implement)
+    - 2.1 [**Existing Features**](#existing-features)
+    - 2.2 [**Features Left to Implement**](#features-left-to-implement)
 
 3. [**Technologies Used**](#technologies-used)
     - 3.1 [**Front-End Technologies**](#front-end-technologies)
@@ -68,11 +68,11 @@ Lethal Apps is a company I founded in 2015 to provide software development servi
 - :white_check_mark: must maximise future maintainability through documentation, code structure and organisation.
 - :white_check_mark: must ensure that when displaying media files, the site avoids aggressive automatic pop-ups and autoplay of audio; instead letting the user initiate and control such actions.
 
-(*Note: :white_check_mark: denotes items that have been successfully implemented*.
+(*Note: :white_check_mark: denotes items that have been successfully implemented*).
 
 ### 1.2 Design
 
-The overall concept is a modern, eye-catching website that specifically show-cases work performed by the agency, and makes it easy for the customer to get in touch. I have designed my project using a *modern* and *minimalist* concept, with an overall clean, crisp look.
+The overall concept is a modern, eye-catching website that show-cases work performed by the agency. The primary goal of the site owner is to make it easy for the customer to get in touch regarding new projects. The site has been designed using a *modern* and *minimalist* concept, with an overall clean, crisp look.
 
 #### 1.2.1 Framework
 
@@ -81,18 +81,18 @@ Bootstrap is a free and open-source CSS framework directed at responsive, mobile
 
 #### 1.2.2 Color Scheme
 
-- In keeping with the overall *modern* theme, I have opted for a bright color scheme, with plenty of white space. Primary and Secondary site colors are specifically tied into the Lethal Apps Logo i.e. yellow (#ebf65c), red(#df3939), olive-green(#a3ca87), with hints of grey. 
+- In keeping with the overall *modern* theme, I have opted for a bright color scheme, with plenty of white space. Primary and secondary site colors are inspired from the Lethal Apps Logo i.e. yellow (#ebf65c), red(#df3939), olive-green(#a3ca87), and hints of grey. 
 
 ![Site Logo](readme-files/logo.jpg)
 
 #### 1.2.3 Icons
 
-- I have made extensive use of [Font Awesome 5.8.1](https://fontawesome.com/) in this project. 
+- The site makes extensive use of [Font Awesome 5.8.1](https://fontawesome.com/) icons in this project. 
 
 
 #### 1.2.4 Typography
 
-- I have incorporated [Google Fonts](https://fonts.google.com/) throughout the application. The primary font I have selected is [Source Sans Pro](https://fonts.google.com/specimen/Source+Sans+Pro?query=source+sans+pro) - a good fit for the overall *modern* and *minimalistic* theme.
+- The site incorporates [Google Fonts](https://fonts.google.com/) throughout the application. The primary font selected is [Source Sans Pro](https://fonts.google.com/specimen/Source+Sans+Pro?query=source+sans+pro) - a good fit for the overall *modern* and *minimalistic* theme.
 
 ### 1.3 Wireframes
 
@@ -118,11 +118,11 @@ Bootstrap is a free and open-source CSS framework directed at responsive, mobile
 **The Header** includes:
 
 - **Site Logo**: created using Photoshop, this allows the user to instantly recognise the companies brand. 
-- **Navigation Bar**: allows the users to navigate through the site in an easy and intuitive way. Fully responsive, and includes a 'Get in Touch' button emphasising the site owners primary requirement to engage customers. 
+- **Navigation Bar**: allows the users to navigate through the site in an easy and intuitive way. Fully responsive, and includes a 'Get in Touch' button emphasising the site owners primary requirement of engaging customers. 
 
 **The Footer** includes:
 
-- **Company Name**: allows users to easily recognise the business’ identity. Have used text here as opposed to the logo, which is clearly visible in the header. 
+- **Company Name**: allows the user to easily recognise the business’ identity. The footer uses text here to provide contrast to the logo which is visible on the header. 
 - **Contact Details**: includes an Email Address that allows users to contact the restaurant if they have any enquiry.
 - **Social**: allows users to know more about the restaurant and to read other people’s reviews. These are all dead-links. 
 
@@ -162,6 +162,7 @@ Both the Header and the Footer are consistent throughout the website.
 - The contact form should POST, and send comfirmation email upon receipt.
 - In-depth Case Studies: the x4 main portfolio items on work.html should have individually linked pages detailing wire-frames, user stories, prototypes, etc.  
 - Blog section to further promote and advertise the ideas of the company, and developments within the industry. 
+- Video optimization for even faster loading. 
 
 ##### back to [top](#table-of-contents)
 
@@ -169,18 +170,18 @@ Both the Header and the Footer are consistent throughout the website.
 
 ## 3.0 Technologies Used
 
-- [VS Code](https://code.visualstudio.com/) - Used as my primary IDE for coding.
-- [GitHub](https://github.com/) - Used as remote storage of my code online.
+- [VS Code](https://code.visualstudio.com/) - Used as the primary IDE.
+- [GitHub](https://github.com/) - Used for remote storage of code.
 - [Photoshop CS6](https://www.adobe.com/Photoshop) - Used for creating logo, site images. 
 - [TinyPNG](https://tinypng.com/) - Used to compress images for faster loading.
 
 ### 3.1. Front-End Technologies
 
 - [HTML5](https://en.wikipedia.org/wiki/HTML5) - used to provide content and structure.
-- [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) - used to provide the styling.
+- [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) - used to provide styling.
 - [Bootstrap](https://getbootstrap.com/) - used to create the layout of the project.
 - [Balsamiq](https://balsamiq.com/) - used to create the project's wireframes.
-- [Google Fonts](https://fonts.google.com/) - used to provide the fonts.
+- [Google Fonts](https://fonts.google.com/) - used to provide font styling.
 - [Font Awesome](https://fontawesome.com/) - used to provide icons. 
 - [Am I Responsive?](http://ami.responsivedesign.is/) - used to show site responsiveness. 
 
@@ -225,8 +226,8 @@ To clone this project from GitHub:
 
 ### 6.2 Media
 
-The pictures used in this site were obtained from [Unsplah](https://unsplash.com/). 
+The pictures used in this site were obtained from [Unsplash](https://unsplash.com/). 
 
 ### 6.3 Acknowledgments
 
-[Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/?originalSubdomain=ng) for his mentorship and guidance. 
+[Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/?originalSubdomain=ng) - for his mentorship and guidance. 

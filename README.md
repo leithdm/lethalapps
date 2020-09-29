@@ -4,48 +4,48 @@
 
 ## Overview:
 
-Lethal Apps is a software development services company with a focus on web and mobile development.
+Lethal Apps is a software development services company with a focus on web and mobile app development.
 
 You can visit the deployed website [here](https://leithdm.github.io/milestone-project-1/).
 
 ## Table of Contents
 1. [**UX**](#ux)
-    - 1.1 [**User Stories**](#user-stories)
-    - 1.2 [**Design**](#design)
-        - 1.2.1 [**Framework**](#framework)
-        - 1.2.2 [**Color Scheme**](#color-scheme)
-        - 1.2.3 [**Icons**](#icons)
-        - 1.2.4 [**Typography**](#typography)
-    - 1.3 [**Wireframes**](#wireframes)
+    - [**User Stories**](#user-stories)
+    - [**Design**](#design)
+        - [**Framework**](#framework)
+        - [**Color Scheme**](#color-scheme)
+        - [**Icons**](#icons)
+        - [**Typography**](#typography)
+    - [**Wireframes**](#wireframes)
 
 2. [**Features**](#features)
-    - 2.1 [**Existing Features**](#existing-features)
-    - 2.2 [**Features Left to Implement**](#features-left-to-implement)
+    - [**Existing Features**](#existing-features)
+    - [**Features Left to Implement**](#features-left-to-implement)
 
 3. [**Technologies Used**](#technologies-used)
-    - 3.1 [**Front-End Technologies**](#front-end-technologies)
+    - [**Front-End Technologies**](#front-end-technologies)
 
 4. [**Testing**](#testing)
-    - 4.1 [**Validators**](#validators)
-    - 4.2 [**Compatibility**](#compatibility)
-    - 4.3 [**Known Issues**](#known-issues)
+    - [**Validators**](#validators)
+    - [**Compatibility**](#compatibility)
+    - [**Known Issues**](#known-issues)
 
 5. [**Deployment**](#deployment)
 
 6. [**Credits**](#credits)
-    - 6.1 [**Content**](#content)
-    - 6.2 [**Media**](#media)
-    - 6.3 [**Acknowledgements**](#acknowledgements)
+    - [**Content**](#content)
+    - [**Media**](#media)
+    - [**Acknowledgements**](#acknowledgements)
 
 ---
 
-## 1.0 UX
+## UX
 
-This project is part of the [Code Institute](https://codeinstitute.net/) Full Stack Software Development course, specifically **Module 1: User-Centric Front-End**. The objective for this milestone project is to "*build a static front-end site to present useful information to users... data is presented in a way that helps users achieve their goals goals, e.g. learning about a product/service that they are interested in. The presentation of this data advances the site owner's goals, e.g. helps them market a product/service.*".
+This project is part of the [Code Institute](https://codeinstitute.net/) Full Stack Software Development course, specifically **Module 1: User-Centric Front-End**. The objective for this milestone project is to "*build a static front-end site to present useful information to users... data is presented in a way that helps users achieve their goals goals, e.g. learning about a product/service that they are interested in. The presentation of this data advances the site owner's goals, e.g. helps them market a product/service.*"
 
-Lethal Apps is a company I founded in 2015 to provide software development services, specifically in the realm of web and mobile application development. This project was an opportunity to create a website to display the services Lethal Apps has to offer, to show-case previously published apps along with open-source portfolio work, and for customers to reach out to the agency to avail of these services. 
+Lethal Apps is a company founded in 2015 to provide software development services, specifically for web and mobile application development. This project was an opportunity to create a website to display the services Lethal Apps has to offer, to show-case previously published apps along with open-source portfolio work, and for customers to reach out to the agency to avail of these services. 
 
-### 1.1 User Stories
+### User Stories
 
 "**__As a user, I__** ______________________________________________"
 
@@ -70,31 +70,31 @@ Lethal Apps is a company I founded in 2015 to provide software development servi
 
 (*Note: :white_check_mark: denotes items that have been successfully implemented*).
 
-### 1.2 Design
+### Design
 
 The overall concept is a modern, eye-catching website that show-cases work performed by the agency. The primary goal of the site owner is to make it easy for the customer to get in touch regarding new projects. The site has been designed using a *modern* and *minimalist* concept, with an overall clean, crisp look.
 
-#### 1.2.1 Framework
+#### Framework
 
 - [Boostrap v4.5](https://getbootstrap.com/)
 Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development. It contains CSS- and (optionally) JavaScript-based design templates for typography, forms, buttons, navigation, and other interface components.
 
-#### 1.2.2 Color Scheme
+#### Color Scheme
 
-- In keeping with the overall *modern* theme, I have opted for a bright color scheme, with plenty of white space. Primary and secondary site colors are inspired from the Lethal Apps Logo i.e. yellow (#ebf65c), red(#df3939), olive-green(#a3ca87), and hints of grey. 
+- In keeping with the overall *modern* theme, I have opted for a bright color scheme, with plenty of white space. Primary and secondary site colors are inspired from the Lethal Apps Logo i.e. yellow (#ebf65c), red(#df3939), olive-green(#a3ca87) with hints of grey. 
 
 ![Site Logo](readme-files/logo.jpg)
 
-#### 1.2.3 Icons
+#### Icons
 
 - The site makes extensive use of [Font Awesome 5.8.1](https://fontawesome.com/) icons in this project. 
 
 
-#### 1.2.4 Typography
+#### Typography
 
-- The site incorporates [Google Fonts](https://fonts.google.com/) throughout the application. The primary font selected is [Source Sans Pro](https://fonts.google.com/specimen/Source+Sans+Pro?query=source+sans+pro) - a good fit for the overall *modern* and *minimalistic* theme.
+- The site incorporates [Google Fonts](https://fonts.google.com/) throughout the application. The primary font selected is [Source Sans Pro](https://fonts.google.com/specimen/Source+Sans+Pro?query=source+sans+pro) - a good fit for the overall modern and minimalistic theme.
 
-### 1.3 Wireframes
+### Wireframes
 
 - Wireframes were created using [Balsamiq Wireframes](https://balsamiq.com/).
 
@@ -111,9 +111,9 @@ Bootstrap is a free and open-source CSS framework directed at responsive, mobile
 
 ---
 
-## 2. Features
+## Features
 
-### 2.1 Existing Features
+### Existing Features
 
 **The Header** includes:
 
@@ -157,7 +157,7 @@ Both the Header and the Footer are consistent throughout the website.
 
 **Favicon**: allows the user to identify the site by just seeing the icon on the tab.
 
-### 2.2. Features left to implement in the future.
+### Features left to implement in the future.
 
 - The contact form should POST, and send comfirmation email upon receipt.
 - In-depth Case Studies: the x4 main portfolio items on work.html should have individually linked pages detailing wire-frames, user stories, prototypes, etc.  
@@ -168,14 +168,14 @@ Both the Header and the Footer are consistent throughout the website.
 
 ---
 
-## 3.0 Technologies Used
+## Technologies Used
 
 - [VS Code](https://code.visualstudio.com/) - Used as the primary IDE.
 - [GitHub](https://github.com/) - Used for remote storage of code.
 - [Photoshop CS6](https://www.adobe.com/Photoshop) - Used for creating logo, site images. 
 - [TinyPNG](https://tinypng.com/) - Used to compress images for faster loading.
 
-### 3.1. Front-End Technologies
+### Front-End Technologies
 
 - [HTML5](https://en.wikipedia.org/wiki/HTML5) - used to provide content and structure.
 - [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) - used to provide styling.
@@ -186,13 +186,13 @@ Both the Header and the Footer are consistent throughout the website.
 - [Am I Responsive?](http://ami.responsivedesign.is/) - used to show site responsiveness. 
 
 
-## 4. Testing
+## Testing
 
 The testing process can be seen [here](TESTING.md).
 
 ---
 
-## 5. Deployment
+## Deployment
 
 **To deploy the project**
 
@@ -219,15 +219,15 @@ To clone this project from GitHub:
 
 ---
 
-## 6. Credits
+## Credits
 
-### 6.1 Content
+### Content
 
 
-### 6.2 Media
+### Media
 
 The pictures used in this site were obtained from [Unsplash](https://unsplash.com/). 
 
-### 6.3 Acknowledgments
+### Acknowledgments
 
 [Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/?originalSubdomain=ng) - for his mentorship and guidance. 

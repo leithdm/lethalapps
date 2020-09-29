@@ -1,6 +1,6 @@
 # LETHAL APPS
 
-![Lethal Apps](readme-files//amiresponsive.png)
+![Lethal Apps](readme-files/amiresponsive.png)
 
 ###### Overview:
 
@@ -86,16 +86,15 @@ Bootstrap is a free and open-source CSS framework directed at responsive, mobile
 
 #### Color Scheme
 
-- In keeping with the overall *modern* theme, I have opted for a bright color scheme with plenty of spacious white space. Colors are specifically tied into the logo colors for this company - yellow, red, off-green, with hints of minimalist grey. 
+- In keeping with the overall *modern* theme, I have opted for a bright color scheme with plenty of white space. Primary and Secondry site colors are specifically tied into the Lethal Apps Logo i.e. yellow (#ebf65c), red(#df3939), olive-green(#a3ca87), with hints of grey. 
 
-- `#ebf65c` (**yellow**)
-- `#df3939` (**red**)
-- `#a3ca87` (**green**)
+![Logo](readme-files/logo.jpg)
 
 #### Icons
 
 - [Font Awesome 5.8.1](https://fontawesome.com/)
-I have made extensive use of the following font awesome icons in this project: 
+- I have made extensive use of the following font awesome icons in this project: 
+
 
 #### Typography
 
@@ -109,9 +108,9 @@ I have made extensive use of the following font awesome icons in this project:
 |    :----:      |    :----:   |    :----:     |    :----:     |
 |[Header](wireframes/main-page.png)|[Header](wireframes/work.png)|[Header](wireframes/company.png)|[Header](wireframes/contact.png)|
 |[Services](wireframes/services.png)||||
-|[Process Pt.1](wireframes/process-pt-1.png)||||
-|[Process Pt.2](wireframes/process-pt-2png)||||
-|[Quotes](wireframes/quotes.png)||||
+|[Process Part 1](wireframes/process-pt-1.png)||||
+|[Process Part 2](wireframes/process-pt-2.png)||||
+|[Testimonials](wireframes/quotes.png)||||
 |[Footer](wireframes/footer.png)||||
 
 ##### back to [top](#table-of-contents)

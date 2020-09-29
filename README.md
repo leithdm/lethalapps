@@ -118,7 +118,8 @@ Bootstrap is a free and open-source CSS framework directed at responsive, mobile
 **The Header** includes:
 
 - **Site Logo**: created using Photoshop, this allows the user to instantly recognise the companies brand. 
-- **Navigation Bar**: allows the users to navigate through the site in an easy and intuitive way. Fully responsive, and includes a 'Get in Touch' button emphasising the site owners primary requirement of engaging customers. 
+- **Navigation Bar**: allows the users to navigate through the site in an easy and intuitive way. Fully responsive, with a burger-bun for smaller devices.
+- **'Get In Touch'**: a 'Get in Touch' button that allows the user to instantly fill out a Contact form. This button is highly visible at all times on the fixed navbar. 
 
 **The Footer** includes:
 

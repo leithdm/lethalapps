@@ -338,6 +338,7 @@ ul.social-footer li a {
 .footer-contact-text {
   color: white;
 }
+
 .footer-contact-text:hover {
   color: #fbff1e;
 }
@@ -357,8 +358,21 @@ ul.social-footer li a {
 	background-size: contain; 
 }
 
+.rocket-color {
+  color: #df3939;
+  font-size: 2rem;  
+}
 
+.portfolio-store-btn {
+  position: absolute; 
+  left: 4%; 
+  bottom: 2%; 
+}
 
+.mdi-36px {
+  font-size: 39px;
+  margin-right: 10px
+}
 
 
 /*------------------------------------*\

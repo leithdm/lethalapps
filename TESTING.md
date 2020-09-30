@@ -55,7 +55,7 @@ To test site responsiveness the following tools were used:
 
 Below is a table detailing the results of this testing: 
 
-![Responsive Design](readme-files/responsiveness.png)
+![Responsive Design](readme-files/responsiveness.PNG)
 
 
 ## Testing User stories
@@ -89,7 +89,6 @@ Result: All user stories have been successfully implemented, with a :white_check
 - :white_check_mark: must document testing fully to include evaluation of bugs found and their fixes and explanation of any bugs that are left unfixed.
 - :white_check_mark: must test and deploy a front-end web application to a Cloud platform. HTML/CSS code pass through the official W3C validators with no issues.
 - :white_check_mark: must ensure all HTML attribute and CSS rule names are consistent in format, appropriate and meaningful.
-- :white_check_mark: must maximise future maintainability through documentation, code structure and organisation.
 - :white_check_mark: must ensure that when displaying media files, the site avoids aggressive automatic pop-ups and autoplay of audio; instead letting the user initiate and control such actions.
 
 ## Bugs 

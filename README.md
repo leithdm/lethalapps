@@ -69,7 +69,6 @@ Lethal Apps is a company founded in 2015 to provide software development service
 - must document testing fully to include evaluation of bugs found and their fixes and explanation of any bugs that are left unfixed.
 - must test and deploy a front-end web application to a Cloud platform. HTML/CSS code pass through the official W3C validators with no issues.
 - must ensure all HTML attribute and CSS rule names are consistent in format, appropriate and meaningful.
-- must maximise future maintainability through documentation, code structure and organisation.
 - must ensure that when displaying media files, the site avoids aggressive automatic pop-ups and autoplay of audio; instead letting the user initiate and control such actions.
 
 
@@ -90,7 +89,7 @@ Bootstrap is a free and open-source CSS framework directed at responsive, mobile
 
 #### Icons
 
-- The site makes use of [Font Awesome 5.6.1](https://fontawesome.com/) and [Flat Icon](https://www.flaticon.com/) icons in this project. 
+- The site makes use of [Font Awesome 5.6.1](https://fontawesome.com/) and [Flat Icon](https://www.flaticon.com/).
 
 #### Typography
 
@@ -164,7 +163,7 @@ Both the Header and the Footer are consistent throughout the website.
 - The contact form should POST, and send comfirmation email upon receipt.
 - In-depth Case Studies: the x4 main portfolio items on work.html should have individually linked pages detailing wire-frames, user stories, prototypes, etc.  
 - Blog section to further promote and advertise the ideas of the company, and developments within the industry. 
-- Video optimization for faster loading. 
+- Video optimization of header-videos for faster loading. 
 
 
 ##### back to [top](#table-of-contents)
@@ -173,10 +172,10 @@ Both the Header and the Footer are consistent throughout the website.
 
 ## Technologies Used
 
-- [VS Code](https://code.visualstudio.com/) - Used as the primary IDE.
-- [GitHub](https://github.com/) - Used for remote storage of code.
-- [Photoshop CS6](https://www.adobe.com/Photoshop) - Used for creating logo, site images. 
-- [TinyPNG](https://tinypng.com/) - Used to optimize images for faster loading.
+- [VS Code](https://code.visualstudio.com/) - used as the primary IDE.
+- [GitHub](https://github.com/) - used for remote storage of code.
+- [Photoshop CS6](https://www.adobe.com/Photoshop) - used for creating logo, site images. 
+- [TinyPNG](https://tinypng.com/) - used to optimize (.jpg, .png) images for faster loading.
 
 ### Front-End Technologies
 
@@ -198,7 +197,7 @@ The testing process can be seen [here](TESTING.md).
 
 ## Deployment
 
-**To deploy the project**
+**To Deploy the project:**
 
 This project is hosted in GitHub Pages
 
@@ -210,7 +209,7 @@ This project is hosted in GitHub Pages
 
 Only master branch has been used for this project.
 
-**To run the project locally**
+**To Run the project locally:**
 
 To clone this project from GitHub:
 
@@ -226,7 +225,7 @@ To clone this project from GitHub:
 ## Credits
 
 ### Content
-All of the text in this site was created by myself. Any resemblance to any other websites content is purely coincidental. 
+All of the text in this site was created by myself. Any resemblance to other website content is coincidental. 
 
 I made use of the following Boostrap components, all of which were modified: 
 - [Collapsible navbar](https://getbootstrap.com/docs/4.0/components/navbar/) 
@@ -235,10 +234,7 @@ I made use of the following Boostrap components, all of which were modified:
 
 ### Media
 
-- The pictures used in this site were obtained from [Unsplash](https://unsplash.com/). Credit must go to the following photographers: 
-- [Annie Spratt](https://unsplash.com/@anniespratt)
-- [Airfocus](https://unsplash.com/@airfocus)
-- [Mimi Thian](https://unsplash.com/@mimithian)
+- The pictures used in this site were obtained from [Unsplash](https://unsplash.com/). Credit goes to the following photographers: [Annie Spratt](https://unsplash.com/@anniespratt), [Airfocus](https://unsplash.com/@airfocus), [Mimi Thian](https://unsplash.com/@mimithian)
 
 - Videos were obtained from [Shutterstock](https://www.shutterstock.com/video).
 

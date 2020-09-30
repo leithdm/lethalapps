@@ -41,11 +41,11 @@ Result: No Errors Found. The validator did find x4 generic warnings related to i
 
 To ensure a broad range of users can successfully use this site, it was manually tested across the 6 major browsers:
 
-- Chrome v.74
-- Edge v.18
-- Firefox v.67
+- Chrome v.85
+- Edge v.85
+- Firefox v.81
 - Safari v.12
-- Opera v.56
+- Opera v.71
 - Internet Explorer v.11
 
 To test site responsiveness the following tools were used:
@@ -61,31 +61,42 @@ Below is a table detailing the results of this testing:
 
 Automated testing was performed using [PowerMapper](https://www.powermapper.com/). This tool checks websites for broken links, browser compatibility, accessibility, web standards validation, search engine issues, and general usability. 
 
+The results of this testing can be viewed below: 
+
+- Errors
 ![PowerMapper Errors](readme-files/powermapper-errors.PNG)
 
 Result: No Errors Found.
 
+
+- Accessibility
 ![PowerMapper Errors](readme-files/powermapper-accessibility.PNG)
 
 Result: x4 Level A Errors, x3 Level AA Errors.
 
-All of the errors were corrected except for: 
+All of these errors were corrected except for: 
 1. 'A video plays longer than 5 seconds, without a way to pause it'. This is in reference to the header videos that display on each of the main website pages. This is a design consideration. This error is ignored.
 2. 'Ensure that text and background colors have enough contrast'. This is a design consideration. This error is ignored. 
 
+
+- Compatibility
 ![PowerMapper Errors](readme-files/powermapper-compatibility.PNG)
 
-Result: SVG images, CSS filter, and CSS transform are not supported by some older browsers. These compatibility problems are accepted, and are ignored. Most Android devices from 4.4 onwards use Chrome as the default browser instead of the original Android browswer, and IE and Safari <= 9 are *legacy* browsers.
+Result: SVG images, CSS filter, and CSS transform are not supported by some older browsers. These compatibility problems are accepted, and ignored. Most Android devices from 4.4 onwards use Chrome as the default browser instead of the original Android browswer, and IE and Safari <= 9 are *legacy* browsers.
 
+
+- Search
 ![PowerMapper Errors](readme-files/powermapper-search.PNG)
 
+
+- Usability
 Result: Offer an HTML site map. 
 Using [XML-SiteMaps](https://www.xml-sitemaps.com/) a site-map was created and added to the root directory to remove this error. 
 
 ![PowerMapper Errors](readme-files/powermapper-usability.PNG)
 
-Result: a few minor Errors in relation to img width or height. 
-These errors were corrected and removed. 
+Result: minor Errors in relation to img-width and img-height. 
+These errors were corrected.
 
 
 ## Testing User stories

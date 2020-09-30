@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap);
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300;400;700&family=Source+Sans+Pro:wght@300;400;600&display=swap');
 
 /*------------------------------------*\
   #COLORS
@@ -120,13 +120,10 @@ iframe {
   text-align: center;
 }
 
-.services-section-text {
-  color: gray;
+.section-heading-text {
+  color: #6E6E73;
 }
 
-.services-heading-text {
-  color: #372a36;
-}
 
 /*INDEX.HTML - PROCESS-----------------*/
 
@@ -169,7 +166,7 @@ iframe {
 
 .timeline-badge-final {
   position: absolute;
-  left: -60px;
+  left: -50px;
   width: 150px;
   height: 150px;
 }
@@ -193,7 +190,7 @@ iframe {
 }
 
 .process-text {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 }
 
 .test {
@@ -202,7 +199,7 @@ iframe {
 
 /*INDEX.HTML - TESTIMONIAL-----------------*/
 
-.section-break {
+.process-footer-section-break {
   height: 150px;
 }
 
@@ -229,8 +226,8 @@ iframe {
 }
 
 .carousel-image {
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   margin-bottom: 20px;
 }
 
@@ -239,7 +236,65 @@ iframe {
   filter: invert(100%);
 }
 
-/*INDEX.HTML - FOOTER-BREAK-----------------*/
+
+
+
+/*------------------------------------*\
+  #WORK.HTML
+\*------------------------------------*/
+
+.work-text,
+.work-heading {
+  font-family: "Source Sans Pro", sans-serif, arial;
+}
+
+.portfolio-item-1 {
+	width: 100%;
+	height: 400px; 
+  background: url("../images/apod-detailed.png") no-repeat center center; 
+	background-size: contain; 
+}
+
+.rocket-color {
+  color: #df3939;
+  font-size: 2rem;  
+}
+
+.portfolio-store-btn {
+  position: absolute; 
+  left: 4%; 
+  bottom: 2%; 
+}
+
+.app-store-icon {
+  font-size: 36px;
+  margin-right: 4px
+}
+
+.app-store-text {
+  font-size: 0.9rem; 
+  padding-right: 4px;  
+}
+
+.testimonial-text {
+  font-size: 1.2rem; 
+}
+
+
+/*------------------------------------*\
+  #COMPANY.HTML
+\*------------------------------------*/
+
+
+/*------------------------------------*\
+  #CONTACT.HTML
+\*------------------------------------*/
+
+
+
+/*------------------------------------*\
+  #FOOTER BREAK
+\*------------------------------------*/
 
 .footer-break-bg-image {
   background: url("../images/index-header-video-mobile.png") no-repeat center
@@ -258,7 +313,10 @@ iframe {
   float: left;
 }
 
-/*INDEX.HTML - FOOTER-----------------*/
+
+/*------------------------------------*\
+  #FOOTER
+\*------------------------------------*/
 
 footer {
   color: #fafafa;
@@ -348,43 +406,6 @@ ul.social-footer li a {
 
 
 /*------------------------------------*\
-  #WORK.HTML
-\*------------------------------------*/
-
-.portfolio-item-1 {
-	width: 100%;
-	height: 400px; 
-  background: url("../images/apod-detailed.png") no-repeat center center; 
-	background-size: contain; 
-}
-
-.rocket-color {
-  color: #df3939;
-  font-size: 2rem;  
-}
-
-.portfolio-store-btn {
-  position: absolute; 
-  left: 4%; 
-  bottom: 2%; 
-}
-
-.mdi-36px {
-  font-size: 39px;
-  margin-right: 10px
-}
-
-
-/*------------------------------------*\
-  #COMPANY.HTML
-\*------------------------------------*/
-
-
-/*------------------------------------*\
-  #CONTACT.HTML
-\*------------------------------------*/
-
-/*------------------------------------*\
   #MEDIA QUERIES
 \*------------------------------------*/
 
@@ -458,9 +479,14 @@ ul.social-footer li a {
   .btn-header {
     font-size: 1rem; 
   }
+
+  .process-item {
+    padding-left: 0;
+    padding-right: 0;
+  }
   
   .process-text {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
   }
 
   .timeline-badge {
@@ -478,7 +504,22 @@ ul.social-footer li a {
     height: 80px;
   }
 
+  .process-footer-section-break {
+    height: 50px;
+  }
+
   .card-columns {
     column-count: 1;
   }
+
+  .carousel-image {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+  }
+
+  .testimonial-text {
+    font-size: 1rem; 
+  }
+  
 }

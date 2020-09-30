@@ -44,14 +44,14 @@ Lethal Apps is a company founded in 2015 to provide software development service
 
 ### User Stories
 
-"**__As an owner, I__** ______________________________________________"
+"**__As an *owner*, I__** ______________________________________________"
 
 - need to ensure potential customers can use the website to get in contact. The primary metric for return on investment for this website is an increase in the number of enquiries through the contact form. 
 - need to show potential customers that we are a dynamic, modern, and efficient company. We value clarity, and simplicity and this must be reflected in the design.  
 - must display a show-case of portfolio work for potential customers to see. 
 - must let the customer know about our past successes via testimonials. 
 
-"**__As a user, I__** ______________________________________________"
+"**__As a *user*, I__** ______________________________________________"
 
 - need to be able to view the site from any device (mobile, tablet, desktop).
 - should be presented with a site that meets accessibility guidelines including contrast between background and foreground colors, and non-text elements with alt text equivalents.
@@ -63,7 +63,7 @@ Lethal Apps is a company founded in 2015 to provide software development service
 - should be able to read further details on the company, including info on employee, company back-story, company vision, etc. 
 - my interaction with the site should produce a positive emotional response. I should immediately be drawn-in.
 
-"**__As a developer, I__** ______________________________________________"
+"**__As a *developer*, I__** ______________________________________________"
 
 - must maximise future maintainability through documentation, code structure and organisation.
 - must document testing fully to include evaluation of bugs found and their fixes and explanation of any bugs that are left unfixed.
@@ -153,8 +153,8 @@ Both the Header and the Footer are consistent throughout the website.
 **Contact Page** includes:
 
 - **Header Video**: eye-catching, and engaging. The user is drawn further into the page. Video was replaced with a static image for small-form-factor devices. 
-- **Contact form**: allows users to contact the company.
-- **Map**: allows users to know where the company is located.
+- **Contact form**: allows the user to contact the company.
+- **Map**: allow the user to know where the company is located.
 
 **Favicon**: allows the user to identify the site by just seeing the icon on the tab.
 
@@ -236,7 +236,7 @@ I made use of the following Boostrap components, all of which were modified:
 
 - The pictures used in this site were obtained from [Unsplash](https://unsplash.com/). Credit goes to the following photographers: [Annie Spratt](https://unsplash.com/@anniespratt), [Airfocus](https://unsplash.com/@airfocus), [Mimi Thian](https://unsplash.com/@mimithian)
 
-- Videos were obtained from [Shutterstock](https://www.shutterstock.com/video).
+- Header videos were obtained from [Shutterstock](https://www.shutterstock.com/video).
 
 ### Acknowledgments
 

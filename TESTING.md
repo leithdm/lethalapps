@@ -6,35 +6,35 @@
 
 - Home Page
 
-![Home Page HTML Validator](readme-files/index-validator.png)
+![Home Page HTML Validator](readme-files/index-validator.PNG)
 
-Result: No Errors. 
+Result: No Errors or warnings to show.
 
 - Work Page
 
-![Work Page HTML Validator](readme-files/work-validator.png)
+![Work Page HTML Validator](readme-files/work-validator.PNG)
 
-Result: No Errors. 
+Result: No Errors or warnings to show.
 
 - Company Page
 
-![Company Page HTML Validator](readme-files/company-validator.png)
+![Company Page HTML Validator](readme-files/company-validator.PNG)
 
-Result: No Errors. 
+Result: No Errors or warnings to show.
 
 - Contact Page
 
-![Contact Page HTML Validator](readme-files/contact-validator.png)
+![Contact Page HTML Validator](readme-files/contact-validator.PNG)
 
-Result: x1 Error. After removing the reference to 'frameborder' the result was No Errors...see below.
+Result: x1 Error related to the 'frameborder' attribute on the 'iframe' element being obsolete. After removing the attribute entirely, the result was No Errors or warnings to show.
 
-![Contact Page HTML Validator](readme-files/contact-validator-corrected.png)
+![Contact Page HTML Validator](readme-files/contact-validator-corrected.PNG)
 
 [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
 
-![CSS Validator](readme-files/css-validator.png)
+![CSS Validator](readme-files/css-validator.PNG)
 
-Result: No Errors. x4 generic warnings related to imported style sheets for google fonts and transform extensions for 'ms', 'moz' and 'webkit'. These warnings are ignored. 
+Result: No Errors Found. The validator did find x4 generic warnings related to imported style sheets for google fonts and transform extensions for 'ms', 'moz' and 'webkit'. These warnings are ignored. 
 
 
 ## Compatability
@@ -60,15 +60,13 @@ Below is a table detailing the results of this testing:
 
 ## Testing User stories
 
-Result: All user stories passed.  
-
-*note: :white_check_mark: denotes items that have been successfully implemented.*
+Result: All user stories have been successfully implemented, with a :white_check_mark: to denote items that have been implemented in this website. 
 
 
 
 "**__As an owner, I__** ______________________________________________"
 
-- :white_check_mark: need to ensure potential customers can use the website to get in contact. The primary metric for return on investment for this website is an increase in the number of enquiries. 
+- :white_check_mark: need to ensure potential customers can use the website to get in contact. The primary metric for return on investment for this website is an increase in the number of enquiries through the contact form. 
 - :white_check_mark: need to show potential customers that we are a dynamic, modern, and efficient company. We value clarity, and simplicity and this must be reflected in the design.  
 - :white_check_mark: must display a show-case of portfolio work for potential customers to see. 
 - :white_check_mark: must let the customer know about our past successes via testimonials. 

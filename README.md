@@ -46,7 +46,7 @@ Lethal Apps is a company founded in 2015 to provide software development service
 
 "**__As an owner, I__** ______________________________________________"
 
-- need to ensure potential customers can use the website to get in contact. The primary metric for return on investment for this website is an increase in the number of enquiries. 
+- need to ensure potential customers can use the website to get in contact. The primary metric for return on investment for this website is an increase in the number of enquiries through the contact form. 
 - need to show potential customers that we are a dynamic, modern, and efficient company. We value clarity, and simplicity and this must be reflected in the design.  
 - must display a show-case of portfolio work for potential customers to see. 
 - must let the customer know about our past successes via testimonials. 

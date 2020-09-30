@@ -26,9 +26,6 @@ You can visit the deployed website [here](https://leithdm.github.io/milestone-pr
     - [**Front-End Technologies**](#front-end-technologies)
 
 4. [**Testing**](#testing)
-    - [**Validators**](#validators)
-    - [**Compatibility**](#compatibility)
-    - [**Known Issues**](#known-issues)
 
 5. [**Deployment**](#deployment)
 
@@ -144,19 +141,19 @@ Both the Header and the Footer are consistent throughout the website.
 
 **Work Page** includes:
 
-- **Header Video**: eye-catching, and engaging. The user is drawn further into the page. 
+- **Header Video**: eye-catching, and engaging. The user is drawn further into the page. Video was replaced with a static image for small-form-factor devices. 
 - **x4 Portfolio Items**: big, bold, and colourful, these primary portfolio items show-case work performed by the company. Allows the user to see the companies pedigree. 
 - **Open Source Portfolio Items**: a chance to show-case open-source projects in a masonry style display. Includes links to 'source code' and 'live views'. Allows the user to see that the company gives back to the community, and has fun in the process. 
 
 **Company Page** includes:
 
-- **Header Video**: eye-catching, and engaging. The user is drawn further into the page. 
+- **Header Video**: eye-catching, and engaging. The user is drawn further into the page. Video was replaced with a static image for small-form-factor devices. 
 - **Short 'Who we are' story**: allows the user to learn more about the companies philosophy, and history. 
 - **Meet the Team**: allows the user to see some of the team members, in a visually appealing way. 
 
 **Contact Page** includes:
 
-- **Header Video**: eye-catching, and engaging. The user is drawn further into the page. 
+- **Header Video**: eye-catching, and engaging. The user is drawn further into the page. Video was replaced with a static image for small-form-factor devices. 
 - **Contact form**: allows users to contact the company.
 - **Map**: allows users to know where the company is located.
 
@@ -239,9 +236,9 @@ I made use of the following Boostrap components, all of which were modified:
 ### Media
 
 - The pictures used in this site were obtained from [Unsplash](https://unsplash.com/). Credit must go to the following photographers: 
--[Annie Spratt](https://unsplash.com/@anniespratt)
--[Airfocus](https://unsplash.com/@airfocus)
--[Mimi Thian](https://unsplash.com/@mimithian)
+- [Annie Spratt](https://unsplash.com/@anniespratt)
+- [Airfocus](https://unsplash.com/@airfocus)
+- [Mimi Thian](https://unsplash.com/@mimithian)
 
 - Videos were obtained from [Shutterstock](https://www.shutterstock.com/video).
 

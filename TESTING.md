@@ -2,7 +2,7 @@
 
 ## Validators
 
-[W3C HTML Validator](https://validator.w3.org/)
+[W3C HTML Markup Validation Service](https://validator.w3.org/)
 
 - Home Page
 
@@ -26,13 +26,16 @@ Result: No Errors.
 
 ![Contact Page HTML Validator](readme-files/contact-validator.png)
 
-Result: No Errors. 
+Result: x1 Error. After removing the reference to 'frameborder' the result was No Errors...see below.
 
-[W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
+![Contact Page HTML Validator](readme-files/contact-validator-corrected.png)
+
+[W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
 
 ![CSS Validator](readme-files/css-validator.png)
 
-Result: No Errors. 
+Result: No Errors. x4 generic warnings related to imported style sheets for google fonts and transform extensions for 'ms', 'moz' and 'webkit'. These warnings are ignored. 
+
 
 ## Compatability
 
@@ -57,9 +60,11 @@ Below is a table detailing the results of this testing:
 
 ## Testing User stories
 
-RESULT: :white_check_mark: denotes items that have been successfully implemented.
-
 Result: All user stories passed.  
+
+*note: :white_check_mark: denotes items that have been successfully implemented.*
+
+
 
 "**__As an owner, I__** ______________________________________________"
 

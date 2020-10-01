@@ -158,11 +158,12 @@ Both the Header and the Footer are consistent throughout the website.
 
 **Favicon**: allows the user to identify the site by just seeing the icon on the tab.
 
-### Features left to implement in the future.
+### Future Features
 
 - The contact form should POST, and send comfirmation email upon receipt.
 - In-depth Case Studies: the x4 main portfolio items on work.html should have individually linked pages detailing wire-frames, user stories, prototypes, etc.  
 - Blog section to further promote and advertise the ideas of the company, and developments within the industry. 
+- Further detail on 'Meet The Team'.
 - Video optimization of header-videos for faster loading. 
 
 
@@ -186,6 +187,7 @@ Both the Header and the Footer are consistent throughout the website.
 - [Google Fonts](https://fonts.google.com/) - used to provide font styling.
 - [Font Awesome](https://fontawesome.com/) - used to provide icons. 
 - [Flaticon](https://www.flaticon.com/) - used to provide icons. 
+- [Logo Makr](https://logomakr.com/) - used to make icons for open source section.
 - [Am I Responsive?](http://ami.responsivedesign.is/) - used to show site responsiveness. 
 
 

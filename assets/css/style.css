@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300;400;700&family=Source+Sans+Pro:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600&display=swap');
 
 /*------------------------------------*\
   #COLORS
@@ -15,7 +15,6 @@
 .section-background-color {
   background-color: #fbfbfd;
 }
-
 
 /*------------------------------------*\
   #GLOBAL SETTINGS
@@ -112,8 +111,6 @@ iframe {
   border-color: #1a1919;
 }
 
-
-
 /*INDEX.HTML - SERVICES-----------------*/
 
 .service {
@@ -121,9 +118,10 @@ iframe {
 }
 
 .section-heading-text {
-  color: #6E6E73;
+  color:#1D1D1F;
+  font-size: 1.5rem; 
+  font-weight: bold;
 }
-
 
 /*INDEX.HTML - PROCESS-----------------*/
 
@@ -236,17 +234,9 @@ iframe {
   filter: invert(100%);
 }
 
-
-
-
 /*------------------------------------*\
   #WORK.HTML
 \*------------------------------------*/
-
-.work-text,
-.work-heading {
-  font-family: "Source Sans Pro", sans-serif, arial;
-}
 
 .portfolio-item-1 {
 	width: 100%;
@@ -255,7 +245,7 @@ iframe {
 	background-size: contain; 
 }
 
-.rocket-color {
+.rocket-icon {
   color: #df3939;
   font-size: 2rem;  
 }
@@ -280,17 +270,34 @@ iframe {
   font-size: 1.2rem; 
 }
 
-
 /*------------------------------------*\
   #COMPANY.HTML
 \*------------------------------------*/
 
+.company-hr-short {
+  width: 30px; 
+}
+
+.company-hr-medium {
+  width: 60px; 
+}
 
 /*------------------------------------*\
   #CONTACT.HTML
 \*------------------------------------*/
 
+.contact-asterisk,
+.contact-phone-text {
+  color: #df3939;
+}
 
+.contact-phone-text {
+  font-size: 1.1rem; 
+}
+
+.bg-custom {
+  background: rgba(214, 212, 212, 0.65);
+}
 
 /*------------------------------------*\
   #FOOTER BREAK
@@ -312,7 +319,6 @@ iframe {
   height: 250px;
   float: left;
 }
-
 
 /*------------------------------------*\
   #FOOTER
@@ -401,10 +407,6 @@ ul.social-footer li a {
   color: #fbff1e;
 }
 
-
-
-
-
 /*------------------------------------*\
   #MEDIA QUERIES
 \*------------------------------------*/
@@ -464,6 +466,13 @@ ul.social-footer li a {
   .card-columns {
     column-count: 1;
   }
+
+  .rocket-icon {
+    display: block; 
+    color: #df3939;
+    font-size: 3rem;  
+    margin-top: 15px; 
+  }
 }
 
 @media screen and (max-width: 576px) {
@@ -521,5 +530,11 @@ ul.social-footer li a {
   .testimonial-text {
     font-size: 1rem; 
   }
-  
+
+  .rocket-icon {
+    display: block; 
+    color: #df3939;
+    font-size: 3rem;  
+    margin-top: 15px; 
+  }
 }

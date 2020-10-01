@@ -88,15 +88,14 @@ Result: SVG images, CSS filter, and CSS transform are not supported by some olde
 - Search
 ![PowerMapper Errors](readme-files/powermapper-search.PNG)
 
+Result: Offer an HTML site map, and provide a unique page title to each page. 
+Using [XML-SiteMaps](https://www.xml-sitemaps.com/) a site-map was created and added to the root directory. A unique page title was provided to each page. 
+
 
 - Usability
-Result: Offer an HTML site map. 
-Using [XML-SiteMaps](https://www.xml-sitemaps.com/) a site-map was created and added to the root directory to remove this error. 
-
 ![PowerMapper Errors](readme-files/powermapper-usability.PNG)
 
-Result: minor Errors in relation to img-width and img-height. 
-These errors were corrected.
+Result: minor Errors in relation to lack of img-width and img-height attributes making the page layout jumpy when first loading. This error is ignored for this version as its effects are negligible. 
 
 
 ## Testing User stories

@@ -280,6 +280,7 @@ Fully responsive page with text and images properly spaced and readable.
   .card-columns {
     column-count: 1;
   }
+}
 ```
 
 <br/>
@@ -303,6 +304,7 @@ Fully responsive page with images properly spaced and visible.
 **Fix:** make use of media queries as per code below:
 
 ```
+@media screen and (max-width: 576px) {
   .timeline-badge {
     position: absolute;
     left: 0;
@@ -317,6 +319,7 @@ Fully responsive page with images properly spaced and visible.
     width: 80px;
     height: 80px;
   }
+}
 ```
 
 <br/>
@@ -340,9 +343,11 @@ Fully responsive page with text properly sized and spaced and all images visible
 **Fix:** make use of media queries as per code below:
 
 ```
+@media screen and (max-width: 576px) {
   .testimonial-text {
     font-size: 1rem; 
   }
+}
 ```
 
 [Go back to README.md file](README.md).

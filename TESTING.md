@@ -106,16 +106,16 @@ Result: All user stories have been successfully implemented, with a :white_check
 
 "**__As an owner, I__** ______________________________________________"
 
-- :white_check_mark: need to ensure potential customers can use the website to get in contact. The primary metric for return on investment for this website is an increase in the number of enquiries through the contact form. 
-- :white_check_mark: need to show potential customers that we are a dynamic, modern, and efficient company. We value clarity, and simplicity and this must be reflected in the design.  
-- :white_check_mark: must display a show-case of portfolio work for potential customers to see. 
+- :white_check_mark: need a  modern, dynamic website to reflect the values of our company.   
+- :white_check_mark: need to ensure customers can use this website to get in Contact.  
+- :white_check_mark: need to ensure customers can see a show-case of portfolio work.
 - :white_check_mark: must let the customer know about our past successes via testimonials. 
 
 "**__As a user, I__** ______________________________________________"
 
 - :white_check_mark: need to be able to view the site from any device (mobile, tablet, desktop).
 - :white_check_mark: should be presented with a site that meets accessibility guidelines including contrast between background and foreground colors, and non-text elements with alt text equivalents.
-- :white_check_mark: should be presented with a website that has a flow of information-layout and interaction-feedback that is clear and unambiguous.
+- :white_check_mark: should be presented with a flow of information-layout and interaction-feedback that is clear and unambiguous.
 - :white_check_mark: should have all of my actions confirmed, where appropriate, and feedback should be given at all times.
 - :white_check_mark: should be able to view a show-case of previously completed works by the company.
 - :white_check_mark: should be able to make further enquiries by filling out an enquiry form.
@@ -129,10 +129,85 @@ Result: All user stories have been successfully implemented, with a :white_check
 - :white_check_mark: must document testing fully to include evaluation of bugs found and their fixes and explanation of any bugs that are left unfixed.
 - :white_check_mark: must test and deploy a front-end web application to a Cloud platform. HTML/CSS code pass through the official W3C validators with no issues.
 - :white_check_mark: must ensure all HTML attribute and CSS rule names are consistent in format, appropriate and meaningful.
-- :white_check_mark: must ensure that when displaying media files, the site avoids aggressive automatic pop-ups and autoplay of audio; instead letting the user initiate and control such actions.
 
 ## Bugs 
 
+- During development, all known bugs were categorized as *responsiveness* issues, all of which were corrected using media-queries. 
+
+- Bug#1: 
+Description: *open source portfolio items are squashed together at 992px*
+Reproduce:   
+    1. Go to ![work.html](https://leithdm.github.io/milestone-project-1/work.html)
+    2. Scroll to portfolio open source section
+    3. Images and text within each individual card item are squashed.
+Expected behaviour:
+Fully responsive page with text and images properly spaced and readable. 
+
+Screenshot:
+![Bug#1](readme-files/bug-1.PNG)
+Fix: make use of media queries as per code below: 
+
+```
+@media screen and (max-width: 992px) {
+  .card-columns {
+    column-count: 2;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .card-columns {
+    column-count: 1;
+  }
+```
+
+- Bug#2: 
+Description: *process flow icons are moved off the screen on mobile*
+Reproduce:   
+    1. Go to ![index.html](https://leithdm.github.io/milestone-project-1/index.html)
+    2. Scroll to project management > Idea section
+    3. Images are off the screen. 
+Expected behaviour:
+Fully responsive page with images properly spaced and visible. 
+
+Screenshot:
+![Bug#2](readme-files/bug-2.PNG)
+Fix: make use of media queries as per code below:
+
+```
+  .timeline-badge {
+    position: absolute;
+    left: 0;
+    width: 80px;
+    height: 80px;
+    margin-left: -140px;
+  }
+
+  .timeline-badge-final {
+    position: absolute;
+    left: -10px;
+    width: 80px;
+    height: 80px;
+  }
+```
+
+- Bug#3: 
+Description: *Testimonial text is too large and overflows on mobile*
+Reproduce:   
+    1. Go to ![index.html](https://leithdm.github.io/milestone-project-1/index.html)
+    2. Scroll to 'What Our Customers Say' section.
+    3. Text overflows its container.
+Expected behaviour:
+Fully responsive page with text properly spaced and legible. 
+
+Screenshot:
+![Bug#3](readme-files/bug-3.PNG)
+Fix: make use of media queries as per code below:
+
+```
+  .testimonial-text {
+    font-size: 1rem; 
+  }
+```
 
 [Go back to README.md file](README.md).
 

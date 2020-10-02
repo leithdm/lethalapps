@@ -46,30 +46,29 @@ Lethal Apps is a company founded in 2015 to provide software development service
 
 "**__As an *owner*, I__** ______________________________________________"
 
-- need to ensure potential customers can use the website to get in contact. The primary metric for return on investment for this website is an increase in the number of enquiries through the contact form. 
-- need to show potential customers that we are a dynamic, modern, and efficient company. We value clarity, and simplicity and this must be reflected in the design.  
-- must display a show-case of portfolio work for potential customers to see. 
+- need a  modern, dynamic website to reflect the values of our company.  
+- need to ensure customers can use this website to get in Contact.
+- need to ensure customers can see a show-case of portfolio work.
 - must let the customer know about our past successes via testimonials. 
 
 "**__As a *user*, I__** ______________________________________________"
 
 - need to be able to view the site from any device (mobile, tablet, desktop).
 - should be presented with a site that meets accessibility guidelines including contrast between background and foreground colors, and non-text elements with alt text equivalents.
-- should be presented with a website that has a flow of information-layout and interaction-feedback that is clear and unambiguous.
+- should be presented with a flow of information-layout and interaction-feedback that is clear and unambiguous.
 - should have all of my actions confirmed, where appropriate, and feedback should be given at all times.
 - should be able to view a show-case of previously completed works by the company.
 - should be able to make further enquiries by filling out an enquiry form.
 - should be able to see testimonials from other customers that have used the services of this company. 
-- should be able to read further details on the company, including info on employee, company back-story, company vision, etc. 
+- should be able to read further details on the company, including info on employees, company vision, etc. 
 - my interaction with the site should produce a positive emotional response. I should immediately be drawn-in.
 
 "**__As a *developer*, I__** ______________________________________________"
 
 - must maximise future maintainability through documentation, code structure and organisation.
 - must document testing fully to include evaluation of bugs found and their fixes and explanation of any bugs that are left unfixed.
-- must test and deploy a front-end web application to a Cloud platform. HTML/CSS code pass through the official W3C validators with no issues.
+- must test and deploy to a cloud platform. HTML/CSS code pass through the official W3C validators with no issues.
 - must ensure all HTML attribute and CSS rule names are consistent in format, appropriate and meaningful.
-- must ensure that when displaying media files, the site avoids aggressive automatic pop-ups and autoplay of audio; instead letting the user initiate and control such actions.
 
 
 ### Design
@@ -97,7 +96,8 @@ Bootstrap is a free and open-source CSS framework directed at responsive, mobile
 
 ### Wireframes
 
-- Wireframes were created using [Balsamiq Wireframes](https://balsamiq.com/).
+- Wireframes were created using [Balsamiq Wireframes](https://balsamiq.com/). 
+- *note: each linked page contains both the mobile and desktop wireframes.*
 
 |    Home Page   |    Work.html     |    Company.html    |    Contact.html    |
 |    :----:      |    :----:   |    :----:     |    :----:     |

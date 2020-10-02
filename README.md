@@ -123,7 +123,7 @@ Bootstrap is a free and open-source CSS framework directed at responsive, mobile
 
 ### Wireframes
 
-- Wireframes were created using [Balsamiq Wireframes](https://balsamiq.com/). Note that each linked page contains **both** the mobile and desktop wireframes.
+- Wireframes were created using [Balsamiq Wireframes](https://balsamiq.com/). Note that each 'Header' wireframe contains **both** the mobile and desktop designs.
 
 <br/>
 
@@ -144,11 +144,7 @@ Bootstrap is a free and open-source CSS framework directed at responsive, mobile
 
 ## Features
 
-<br/>
-
 ### Existing Features
-
-<br/>
 
 **The Header** includes:
 
@@ -228,8 +224,6 @@ Both the Header and the Footer are consistent throughout the website.
 - [Photoshop CS6](https://www.adobe.com/Photoshop) - used for creating logo, site images. 
 - [TinyPNG](https://tinypng.com/) - used to optimize (.jpg, .png) images for faster loading.
 
-<br/>
-
 ### Front-End Technologies
 
 - [HTML5](https://en.wikipedia.org/wiki/HTML5) - used to provide content and structure.
@@ -255,8 +249,6 @@ The testing process can be viewed [here](TESTING.md).
 ---
 
 ## Deployment
-
-<br/>
 
 **To deploy the project:**
 
@@ -286,8 +278,6 @@ To clone this project from GitHub:
 ---
 
 ## Credits
-
-<br/>
 
 ### Content
 

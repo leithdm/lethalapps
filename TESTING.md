@@ -20,7 +20,6 @@
   - [Bug#3](#bug3)
 
 <br/>
-<br/>
 
 # Validators
 
@@ -221,6 +220,8 @@ Using [XML-SiteMaps](https://www.xml-sitemaps.com/) a site-map was created and a
 - :white_check_mark: need to ensure customers can see a show-case of portfolio work.
 - :white_check_mark: must let the customer know about our past successes via testimonials. 
 
+<br/>
+
 "**__As a user, I__** ______________________________________________"
 
 - :white_check_mark: need to be able to view the site from any device (mobile, tablet, desktop).
@@ -232,6 +233,8 @@ Using [XML-SiteMaps](https://www.xml-sitemaps.com/) a site-map was created and a
 - :white_check_mark: should be able to see testimonials from other customers that have used the services of this company. 
 - :white_check_mark: should be able to read further details on the company, including info on employee, company back-story, company vision, etc. 
 - :white_check_mark: my interaction with the site should produce a positive emotional response. I should immediately be drawn-in.
+
+<br/>
 
 "**__As a developer, I__** ______________________________________________"
 
@@ -246,7 +249,6 @@ Using [XML-SiteMaps](https://www.xml-sitemaps.com/) a site-map was created and a
 
 **During development, all known bugs were categorized as *responsiveness* issues. All were corrected using media-queries.**
 
-<br/>
 
 ## Bug#1 
 
@@ -283,12 +285,12 @@ Fully responsive page with text and images properly spaced and readable.
 <br/>
 
 ## Bug#2 
-**Description:** *Project management process flow icons are moved off the screen on mobile.*
+**Description:** *'Project management' process flow icons are not fully visible towards the left-hand side of a mobile screen.*
 
 **Reproduce:**  
 1. Go to https://leithdm.github.io/milestone-project-1/index.html
 2. Scroll to the 'Project Management' section. 
-3. Images are displaying off the screen. 
+3. Images are displaying off (left-hand side) the screen. 
 
 **Expected behaviour:**
 Fully responsive page with images properly spaced and visible. 
@@ -320,12 +322,12 @@ Fully responsive page with images properly spaced and visible.
 <br/>
 
 ## Bug#3 
-**Description:** *Testimonial text is too large and overflows on mobile*
+**Description:** *Testimonial text is too large and overflows on mobile.*
 
 **Reproduce:**  
 1. Go to https://leithdm.github.io/milestone-project-1/index.html
 2. Scroll to the 'What Our Customers Say' section.
-3. Text is overflowing its container.
+3. Text is overflowing its container, pushing customer image off screen.
 
 **Expected behaviour:**
 Fully responsive page with text properly spaced and legible. 

@@ -22,7 +22,7 @@ You can visit the deployed website [here](https://leithdm.github.io/milestone-pr
 
 2. [**Features**](#features)
     - [**Existing Features**](#existing-features)
-    - [**Features Left to Implement**](#features-left-to-implement)
+    - [**Future Features**](#future-features)
 
 3. [**Technologies Used**](#technologies-used)
     - [**Front-End Technologies**](#front-end-technologies)
@@ -34,7 +34,7 @@ You can visit the deployed website [here](https://leithdm.github.io/milestone-pr
 6. [**Credits**](#credits)
     - [**Content**](#content)
     - [**Media**](#media)
-    - [**Acknowledgements**](#acknowledgements)
+    - [**Acknowledgments**](#acknowledgments)
 
 <br/>
 

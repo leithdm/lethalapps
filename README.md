@@ -8,6 +8,8 @@ Lethal Apps is a software development services company founded in 2015 with a fo
 
 You can visit the deployed website [here](https://leithdm.github.io/milestone-project-1/).
 
+<br/>
+
 ## Table of Contents
 1. [**UX**](#ux)
     - [**User Stories**](#user-stories)
@@ -34,6 +36,8 @@ You can visit the deployed website [here](https://leithdm.github.io/milestone-pr
     - [**Media**](#media)
     - [**Acknowledgements**](#acknowledgements)
 
+<br/>
+
 ---
 
 ## UX
@@ -42,7 +46,13 @@ This project is part of the [Code Institute](https://codeinstitute.net/) Full St
 
 Lethal Apps is a company founded in 2015 to provide software development services, specifically for web and mobile application development. As company owner, this project was an opportunity to create a website to highlight the services Lethal Apps has to offer, to show-case previously published apps along with open-source portfolio work, and for customers to get in contact with the agency to avail of these services. 
 
+<br/>
+
 ### User Stories
+
+- User Stories were written from the perspective of the website owner, a user, and the developer. 
+  
+<br/>
 
 "**__As an *owner*, I__** ______________________________________________"
 
@@ -50,6 +60,8 @@ Lethal Apps is a company founded in 2015 to provide software development service
 - need to ensure customers can use this website to get in Contact.
 - need to ensure customers can see a show-case of portfolio work.
 - must let the customer know about our past successes via testimonials. 
+
+<br/>
 
 "**__As a *user*, I__** ______________________________________________"
 
@@ -63,6 +75,8 @@ Lethal Apps is a company founded in 2015 to provide software development service
 - should be able to read further details on the company, including info on employees, company vision, etc. 
 - my interaction with the site should produce a positive emotional response. I should immediately be drawn-in.
 
+<br/>
+
 "**__As a *developer*, I__** ______________________________________________"
 
 - must maximise future maintainability through documentation, code structure and organisation.
@@ -70,34 +84,48 @@ Lethal Apps is a company founded in 2015 to provide software development service
 - must test and deploy to a cloud platform. HTML/CSS code pass through the official W3C validators with no issues.
 - must ensure all HTML attribute and CSS rule names are consistent in format, appropriate and meaningful.
 
+<br/>
 
 ### Design
 
 The overall concept is a modern, eye-catching website that show-cases work performed by the agency. The primary goal of the site owner is to make it easy for the customer to get in touch regarding new projects. The site has been designed using a *modern* and *minimalist* concept, with an overall clean, crisp look.
+
+<br/>
 
 #### Framework
 
 - [Boostrap v4.5](https://getbootstrap.com/)
 Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development. It contains CSS- and (optionally) JavaScript-based design templates for typography, forms, buttons, navigation, and other interface components.
 
+<br/>
+
 #### Color Scheme
 
 - In keeping with the overall *modern* theme, I have opted for a bright color scheme, with plenty of white space. Primary and secondary site colors are inspired from the Lethal Apps Logo i.e. yellow (#ebf65c), red(#df3939), olive-green(#a3ca87) with hints of grey. 
 
+<br/>
+
 ![Site Logo](readme-files/logo.jpg)
+
+<br/>
 
 #### Icons
 
 - The site makes use of [Font Awesome 5.6.1](https://fontawesome.com/) and [Flat Icon](https://www.flaticon.com/).
 
+<br/>
+
 #### Typography
 
 - The site incorporates [Google Fonts](https://fonts.google.com/) throughout the application. The primary font selected is [Source Sans Pro](https://fonts.google.com/specimen/Source+Sans+Pro?query=source+sans+pro) - a good fit for the modern and minimalistic theme.
 
+<br/>
+
 ### Wireframes
 
-- Wireframes were created using [Balsamiq Wireframes](https://balsamiq.com/). 
-- *note: each linked page contains both the mobile and desktop wireframes.*
+- Wireframes were created using [Balsamiq Wireframes](https://balsamiq.com/). Note that each linked page contains **both** the mobile and desktop wireframes.
+
+<br/>
 
 |    Home Page   |    Work.html     |    Company.html    |    Contact.html    |
 |    :----:      |    :----:   |    :----:     |    :----:     |
@@ -108,19 +136,27 @@ Bootstrap is a free and open-source CSS framework directed at responsive, mobile
 |[Testimonials](wireframes/quotes.png)||||
 |[Footer](wireframes/footer.png)||||
 
+<br/>
+
 ##### back to [top](#table-of-contents)
 
 ---
 
 ## Features
 
+<br/>
+
 ### Existing Features
+
+<br/>
 
 **The Header** includes:
 
 - **Site Logo**: created using Photoshop, this allows the user to instantly recognise the companies brand. 
 - **Navigation Bar**: allows the users to navigate through the site in an easy and intuitive way. Fully responsive, with a burger-bun for smaller devices.
 - **'Get In Touch'**: a 'Get in Touch' button that navigates the user to fill out a Contact form. This button is highly visible at all times on the fixed navbar. 
+
+<br/>
 
 **The Footer** includes:
 
@@ -130,6 +166,8 @@ Bootstrap is a free and open-source CSS framework directed at responsive, mobile
 
 Both the Header and the Footer are consistent throughout the website.
 
+<br/>
+
 **Home Page** includes:
 
 - **Header Video**: eye-catching, and engaging. The user is immediately drawn into the site. This feature had to be carefully implemented as a poorly executed, overly distracting or 'buggy' background video can be a major turn-off for potential customers. Video was replaced with a static image for small-form-factor devices. 
@@ -138,11 +176,15 @@ Both the Header and the Footer are consistent throughout the website.
 - **Project Management**: allows the user to understand how the company delivers its projects. Shows the user the methodologies employed by the company, and lets them know there is a clear and precise process for delivering their product. 
 - **Testimonials**: allows the user to see postive, re-affirming reviews and feedback from previous customers. Illustrates integrity and trustworthiness. 
 
+<br/>
+
 **Work Page** includes:
 
 - **Header Video**: eye-catching, and engaging. The user is drawn further into the page. Video was replaced with a static image for small-form-factor devices. 
 - **x4 Portfolio Items**: big, bold, and colourful, these primary portfolio items show-case work performed by the company. Allows the user to see the companies pedigree. 
 - **Open Source Portfolio Items**: a chance to show-case open-source projects in a masonry style display. Includes links to 'source code' and 'live views'. Allows the user to see that the company gives back to the community, and has fun in the process. 
+
+<br/>
 
 **Company Page** includes:
 
@@ -150,13 +192,19 @@ Both the Header and the Footer are consistent throughout the website.
 - **Short 'Who we are' story**: allows the user to learn more about the companies philosophy, and history. 
 - **Meet the Team**: allows the user to see some of the team members, in a visually appealing way. 
 
+<br/>
+
 **Contact Page** includes:
 
 - **Header Video**: eye-catching, and engaging. The user is drawn further into the page. Video was replaced with a static image for small-form-factor devices. 
 - **Contact form**: allows the user to contact the company.
 - **Map**: allow the user to know where the company is located.
 
+<br/>
+
 **Favicon**: allows the user to identify the site by just seeing the icon on the tab.
+
+<br/>
 
 ### Future Features
 
@@ -169,6 +217,8 @@ Both the Header and the Footer are consistent throughout the website.
 
 ##### back to [top](#table-of-contents)
 
+<br/>
+
 ---
 
 ## Technologies Used
@@ -177,6 +227,8 @@ Both the Header and the Footer are consistent throughout the website.
 - [GitHub](https://github.com/) - used for remote storage of code.
 - [Photoshop CS6](https://www.adobe.com/Photoshop) - used for creating logo, site images. 
 - [TinyPNG](https://tinypng.com/) - used to optimize (.jpg, .png) images for faster loading.
+
+<br/>
 
 ### Front-End Technologies
 
@@ -190,16 +242,23 @@ Both the Header and the Footer are consistent throughout the website.
 - [Logo Makr](https://logomakr.com/) - used to make icons for open source section.
 - [Am I Responsive?](http://ami.responsivedesign.is/) - used to show site responsiveness. 
 
+<br/>
+
+---
 
 ## Testing
 
-The testing process can be seen [here](TESTING.md).
+The testing process can be viewed [here](TESTING.md).
+
+<br/>
 
 ---
 
 ## Deployment
 
-**To Deploy the project:**
+<br/>
+
+**To deploy the project:**
 
 This project is hosted in GitHub Pages
 
@@ -209,9 +268,11 @@ This project is hosted in GitHub Pages
 4. The page refreshes automatically and the website is now deployed.
 5. The link to the webpage is just in the GitHub **Pages** section down below.
 
-Only master branch has been used for this project.
+Only the master branch has been used for this project.
 
-**To Run the project locally:**
+<br/>
+
+**To run the project locally:**
 
 To clone this project from GitHub:
 
@@ -226,13 +287,18 @@ To clone this project from GitHub:
 
 ## Credits
 
-### Content
-All of the text in this site was created by myself. Any resemblance to other website content is coincidental. 
+<br/>
 
-I made use of the following Boostrap components, all of which were modified: 
-- [Collapsible navbar](https://getbootstrap.com/docs/4.0/components/navbar/) 
-- [Cards](https://getbootstrap.com/docs/4.5/components/card/)
-- [Carousel](https://getbootstrap.com/docs/4.5/components/carousel/)
+### Content
+
+- All of the text in this site was created by myself. Any resemblance to other website content is coincidental. 
+
+- I made use of the following Boostrap components, all of which were modified: 
+   - [Collapsible navbar](https://getbootstrap.com/docs/4.0/components/navbar/) 
+   - [Cards](https://getbootstrap.com/docs/4.5/components/card/)
+   - [Carousel](https://getbootstrap.com/docs/4.5/components/carousel/)
+ 
+<br/>
 
 ### Media
 
@@ -240,6 +306,8 @@ I made use of the following Boostrap components, all of which were modified:
 
 - Header videos were obtained from [Shutterstock](https://www.shutterstock.com/video).
 
+<br/>
+
 ### Acknowledgments
 
-[Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/?originalSubdomain=ng) - for his mentorship and guidance. 
+- [Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/?originalSubdomain=ng) - for his mentorship and guidance. 

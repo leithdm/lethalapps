@@ -2,7 +2,7 @@
 # Testing <!-- omit in toc -->
 
 ## Table of Contents
-- [Validators](#validators)
+- [HTML/CSS Validators](#htmlcss-validators)
   - [W3C HTML Markup Validation Service](#w3c-html-markup-validation-service)
   - [W3C CSS Validation Service](#w3c-css-validation-service)
 - [Compatability](#compatability)
@@ -21,7 +21,7 @@
 
 <br/>
 
-# Validators
+# HTML/CSS Validators
 
 ## [W3C HTML Markup Validation Service](https://validator.w3.org/)
 
@@ -63,7 +63,7 @@
 
 <br/>
 
-- Contact Page
+- Contact Page (contact.html)
 
 <br/>
 
@@ -240,19 +240,19 @@ Using [XML-SiteMaps](https://www.xml-sitemaps.com/) a site-map was created and a
 
 - :white_check_mark: must maximise future maintainability through documentation, code structure and organisation.
 - :white_check_mark: must document testing fully to include evaluation of bugs found and their fixes and explanation of any bugs that are left unfixed.
-- :white_check_mark: must test and deploy a front-end web application to a Cloud platform. HTML/CSS code pass through the official W3C validators with no issues.
+- :white_check_mark: must test and deploy to a cloud platform. HTML/CSS code pass through the official W3C validators with no issues.
 - :white_check_mark: must ensure all HTML attribute and CSS rule names are consistent in format, appropriate and meaningful.
   
 <br/>
 
 # Bugs 
 
-**During development, all known bugs were categorized as *responsiveness* issues. All were corrected using media-queries.**
+**During development, all known bugs could be categorized as *responsiveness* issues. All were corrected using media-queries.**
 
 
 ## Bug#1 
 
-**Description:** *Open source portfolio items are unevenly spaced together at 992px.*
+**Description:** *'Open Source' portfolio items are unevenly spaced together at 992px.*
 
 **Reproduce:**   
 1. Go to https://leithdm.github.io/milestone-project-1/work.html
@@ -285,12 +285,12 @@ Fully responsive page with text and images properly spaced and readable.
 <br/>
 
 ## Bug#2 
-**Description:** *'Project management' process flow icons are not fully visible towards the left-hand side of a mobile screen.*
+**Description:** *'Project Management' process flow icons are not fully visible on the left-hand side of a mobile screen.*
 
 **Reproduce:**  
 1. Go to https://leithdm.github.io/milestone-project-1/index.html
 2. Scroll to the 'Project Management' section. 
-3. Images are displaying off (left-hand side) the screen. 
+3. Images are cut in half and displaying towards the left-hand side of the screen. 
 
 **Expected behaviour:**
 Fully responsive page with images properly spaced and visible. 
@@ -322,15 +322,15 @@ Fully responsive page with images properly spaced and visible.
 <br/>
 
 ## Bug#3 
-**Description:** *Testimonial text is too large and overflows on mobile.*
+**Description:** *'Testimonial' text is too large and overflows on mobile, pushing images up.*
 
 **Reproduce:**  
 1. Go to https://leithdm.github.io/milestone-project-1/index.html
 2. Scroll to the 'What Our Customers Say' section.
-3. Text is overflowing its container, pushing customer image off screen.
+3. Text is too large, pushing the customer image off screen.
 
 **Expected behaviour:**
-Fully responsive page with text properly spaced and legible. 
+Fully responsive page with text properly sized and spaced and all images visible.  
 
  **Screenshot:**
 <br/>

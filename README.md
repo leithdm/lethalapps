@@ -6,7 +6,7 @@
 
 Lethal Apps is a software development services company founded in 2015 with a focus on web and mobile app development.
 
-You can visit the deployed website [here](https://leithdm.github.io/milestone-project-1/).
+You can visit the deployed website [here](https://leithdm.github.io/lethalapps/).
 
 <br/>
 

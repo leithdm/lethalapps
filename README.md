@@ -297,7 +297,3 @@ To clone this project from GitHub:
 - Header videos were obtained from [Shutterstock](https://www.shutterstock.com/video).
 
 <br/>
-
-### Acknowledgments
-
-- [Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/?originalSubdomain=ng) - for his mentorship and guidance. 

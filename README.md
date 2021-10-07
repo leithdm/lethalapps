@@ -42,8 +42,6 @@ You can visit the deployed website [here](https://leithdm.github.io/lethalapps/)
 
 ## UX
 
-This project is part of the [Code Institute](https://codeinstitute.net/) Full Stack Software Development course, specifically **Module 1: User-Centric Front-End**. The objective for this milestone project is to "*build a static front-end site to present useful information to users... data is presented in a way that helps users achieve their goals goals, e.g. learning about a product/service that they are interested in. The presentation of this data advances the site owner's goals, e.g. helps them market a product/service.*"
-
 Lethal Apps is a company founded in 2015 to provide software development services, specifically for web and mobile application development. As company owner, this project was an opportunity to create a website to highlight the services Lethal Apps has to offer, to show-case previously published apps along with open-source portfolio work, and for customers to get in contact with the agency to avail of these services. 
 
 <br/>
